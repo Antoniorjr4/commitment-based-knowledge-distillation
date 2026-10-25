@@ -5,8 +5,10 @@ Reproducibility package for the working paper:
 **Commitment-Based Knowledge Distillation: Statistical Certification and Optimistic Verification for Trust-Minimized Model Serving**
 
 **Author:** Antonio Rufino — Independent Researcher, Brazil  
+**ORCID:** 0009-0004-1767-8165  
 **Status:** Technical Report and Working Paper  
-**Baseline:** V1, October 2026
+**Baseline:** V1, October 2026  
+**Archived Baseline V1:** Zenodo v1.0.0 — DOI: 10.5281/zenodo.23644783
 
 ## Scope
 
@@ -206,7 +208,13 @@ Baseline V1 is frozen. Future experiments should be performed in separate versio
 
 ## Citation
 
-Citation metadata is provided in `CITATION.cff`. No DOI or preprint identifier is claimed until one is actually assigned.
+Citation metadata is provided in `CITATION.cff`.
+
+For reproduction of the experimental baseline reported in Preprint v1.0, cite the archived software release:
+
+**Antonio Rufino. Commitment-Based Knowledge Distillation: Statistical Certification and Optimistic Verification for Trust-Minimized Model Serving. Baseline V1, version v1.0.0. Zenodo. DOI: 10.5281/zenodo.23644783.**
+
+ORCID: 0009-0004-1767-8165.
 
 ## License
 

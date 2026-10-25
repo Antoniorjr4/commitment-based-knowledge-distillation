@@ -1,0 +1,44 @@
+{
+  "artifact": "Commitment-Based Knowledge Distillation — Baseline V1",
+  "author": "Antonio Rufino",
+  "paper_status": "Technical Report and Working Paper",
+  "paper_date": "2026-10",
+  "evm": {
+    "forge_version": "1.8.6",
+    "forge_commit": "6bad0a66de7c83f7b33695044138f0f5fa4c5990",
+    "solidity_version": "0.8.24",
+    "optimizer": true,
+    "optimizer_runs": 200,
+    "via_ir": true,
+    "environment": "local Foundry EVM",
+    "primary_metric": "gasleft difference around external arbitrate call",
+    "target_gas": 450000
+  },
+  "baseline_results": {
+    "dimension_depth14": {
+      "64": 132874,
+      "128": 222450,
+      "256": 400913,
+      "512": 758018,
+      "1024": 1470772
+    },
+    "dimension256_by_depth": {
+      "5": 392334,
+      "10": 397111,
+      "14": 400913,
+      "20": 406637
+    },
+    "tests": {
+      "passed": 11,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "scope": {
+    "complete_transaction_gas_measured": false,
+    "deployment_gas_measured": false,
+    "live_randomness_beacon_integrated": false,
+    "end_to_end_component_integration": false,
+    "baseline_frozen": true
+  }
+}

@@ -30,13 +30,7 @@ The Baseline V1 ABI uses dynamic `int8[]` arrays. This is intentional and frozen
 
 ## Reproduce the EVM baseline
 
-Install Foundry and verify the expected toolchain:
-
-```bash
-forge --version
-```
-
-The reported baseline used:
+The baseline toolchain is frozen at:
 
 ```text
 forge Version: 1.8.6
@@ -54,16 +48,22 @@ optimizer_runs = 200
 via_ir = true
 ```
 
-Run:
+The automated reproduction uses Ubuntu 24.04 and pins `forge-std` to commit:
+
+```text
+f3dae6e6ee381f25eb6a246f7da9b85c91a68219
+```
+
+Run locally:
 
 ```bash
 forge test -vv
 forge test --gas-report -vv
 ```
 
-The original baseline execution reported **11 tests passed, 0 failed, 0 skipped**.
+The original experimental execution and the clean GitHub Actions reproduction both report **11 tests passed, 0 failed, 0 skipped**. The automated reproduction also reproduces the frozen instrumented gas values exactly. Workflow logs are preserved as a GitHub Actions artifact.
 
-> Note: the exact original Solidity test harness that generated the reported per-configuration values should be preserved verbatim before claiming independent one-command reproduction of every benchmark number. The contract, compiler configuration, protocol, and frozen reported outputs are already preserved here.
+The original Solidity test harness is preserved at `test/CertifiedDistillationArbiter.t.sol`.
 
 ## Frozen reported EVM results
 
@@ -97,7 +97,7 @@ See [`BENCHMARK_PROTOCOL.md`](BENCHMARK_PROTOCOL.md) before comparing these numb
 
 ## Other reported prototype results
 
-The paper also reports separate component-level prototypes that are not yet integrated into this repository's EVM baseline:
+The paper also reports separate component-level prototypes that are not yet integrated into this repository's EVM baseline.
 
 ### Statistical certificate prototype
 
@@ -131,8 +131,14 @@ These prototypes are separate from the Solidity arbiter and should not be descri
 
 ```text
 .
+├── .github/workflows/
+│   └── reproduce-baseline.yml
+├── results/original-run/
+│   └── RUN_METADATA.md
 ├── src/
 │   └── CertifiedDistillationArbiter.sol
+├── test/
+│   └── CertifiedDistillationArbiter.t.sol
 ├── foundry.toml
 ├── BENCHMARK_PROTOCOL.md
 ├── BENCHMARK_RESULTS.md

@@ -13,7 +13,7 @@ permissions:
 jobs:
   baseline-v1:
     name: Foundry Baseline V1
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,8 +28,11 @@ jobs:
           forge --version
           solc --version || true
 
-      - name: Install forge-std
-        run: forge install foundry-rs/forge-std --no-commit
+      - name: Install pinned forge-std
+        run: |
+          forge install foundry-rs/forge-std --no-commit
+          git -C lib/forge-std checkout f3dae6e6ee381f25eb6a246f7da9b85c91a68219
+          test "$(git -C lib/forge-std rev-parse HEAD)" = "f3dae6e6ee381f25eb6a246f7da9b85c91a68219"
 
       - name: Run Baseline V1 tests
         run: forge test -vv | tee baseline-test.txt

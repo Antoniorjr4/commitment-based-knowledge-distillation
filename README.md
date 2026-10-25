@@ -158,10 +158,10 @@ The hash record is the integrity reference; moving or renaming an unchanged arch
 │   └── reproduce-baseline.yml
 ├── poc-statistical/
 │   ├── verify.py
-│   └── report.md
+│   └── REPORT.md
 ├── poc-tier-b/
 │   ├── verify_tier_b.py
-│   ├── report.md
+│   ├── TIER_B_REPORT.md
 │   └── tier_b_results.json
 ├── results/original-run/
 │   └── RUN_METADATA.md
@@ -207,12 +207,6 @@ Baseline V1 is frozen. Future experiments should be performed in separate versio
 ## Citation
 
 Citation metadata is provided in `CITATION.cff`. No DOI or preprint identifier is claimed until one is actually assigned.
-
-## AI assistance disclosure
-
-Generative AI research-assistance tools were used during code development, experimental-design refinement, output interpretation, literature-oriented revision, technical writing, and manuscript editing. Additional generative AI systems were used for independent critique and review.
-
-No AI system is an author. All reported experimental executions were performed and reviewed by the human author, who made the final methodological decisions, accepted or rejected AI-generated suggestions, verified the reported numerical results, and assumes responsibility for the content and conclusions.
 
 ## License
 

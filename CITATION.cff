@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or experimental baseline, please cite the accompanying working paper."
+title: "Commitment-Based Knowledge Distillation: Statistical Certification and Optimistic Verification for Trust-Minimized Model Serving"
+type: software
+authors:
+  - family-names: Rufino
+    given-names: Antonio
+version: "Baseline V1"
+date-released: 2026-10-25
+license: MIT
+repository-code: "https://github.com/Antoniorjr4/commitment-based-knowledge-distillation"
+abstract: >-
+  Reproducibility package for component-level experiments on statistical
+  certification and optimistic verification for commitment-based knowledge
+  distillation. The repository preserves the frozen Baseline V1 EVM arbiter,
+  test harness, benchmark protocol, reported results, and automated reproduction
+  workflow. The components are research prototypes and are not an integrated
+  production system.

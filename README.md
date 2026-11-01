@@ -225,3 +225,5 @@ The software in this repository is released under the MIT License. See `LICENSE`
 ## Related fidelity-auditing study
 
 The distinct finite-population fidelity-auditing study is maintained in its dedicated repository: [Auditable Teacher–Student Fidelity](https://github.com/Antoniorjr4/auditable-teacher-student-fidelity). Its initial `audit-large-v1.0.0` release and `finite-population-audit/` files here are retained as publication history. Use the dedicated repository for the current paper, citation and reproduction package. The historical Baseline V1 and its DOI remain unchanged.
+
+Independent fidelity-auditing preprint and supplementary reproduction package: [10.5281/zenodo.23851318](https://doi.org/10.5281/zenodo.23851318). The initial automatic archive at 10.5281/zenodo.23851131 remains a historical software record in this repository's Zenodo version lineage.

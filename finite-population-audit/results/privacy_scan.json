@@ -1,0 +1,12 @@
+{
+  "files_scanned": 6338,
+  "credential_patterns_checked": [
+    "groq_key",
+    "github_token",
+    "openai_key",
+    "private_key"
+  ],
+  "credential_pattern_hits": [],
+  "files_containing_original_local_home_path": 0,
+  "scope": "Pattern scan, not a guarantee of absence of all sensitive information. Original local paths and provider request IDs retained in immutable evidence. No edits to hashed evidence."
+}

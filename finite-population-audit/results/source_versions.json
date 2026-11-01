@@ -1,0 +1,7 @@
+{
+  "portuguese_basis": "v0.3 frozen",
+  "basis_sha256": "5a2a307de05a17d56bdce835e23910dfdd1872a16d112bb1bd103085d8174f8d",
+  "english_candidate": "audit-large-v1.0.0",
+  "editing": "Condensed scientific adaptation; original results and decision unchanged",
+  "publication_target": "GitHub release, then Zenodo archival"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Commitment-Based Teacher-Student Fidelity Auditing with Public Randomness and Finite-Population Certification — Reproduction Package",
+  "upload_type": "software",
+  "description": "Reproduction package for a prespecified fixed-population fidelity audit on 2,048 constructed and human-reviewed maintenance reports. The primary sample contained 64 disagreements in 768 items, yielding an exact hypergeometric upper total of 200/2048 (9.765625%); the later census found 158/2048. The guarantee assumes a fixed disagreement table and uniform sampling without replacement. Includes raw evidence, selected LoRA adapter (base weights excluded), offline verification, editable manuscript sources and PDF. Code is MIT; author-controlled manuscript/data is CC BY 4.0; model and third-party notices remain applicable. This is an empirical integration case study, not peer-reviewed publication or proof of API stationarity.",
+  "creators": [
+    {
+      "name": "Rufino, Antonio",
+      "affiliation": "Independent Researcher, Brazil",
+      "orcid": "0009-0004-1767-8165"
+    }
+  ],
+  "license": "MIT",
+  "version": "audit-large-v1.0.0",
+  "keywords": [
+    "model auditing",
+    "knowledge distillation",
+    "finite population",
+    "public randomness",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23644783",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+> **Canonical repository:** This distinct study is now maintained at [auditable-teacher-student-fidelity](https://github.com/Antoniorjr4/auditable-teacher-student-fidelity). This folder and the original release are retained for provenance. Use the dedicated repository for current publication and citation metadata.
+
 # Finite-population Teacher–Student fidelity audit — audit-large-v1.0.0
 
 **Reproduction release accompanying the manuscript. No arXiv submission or peer-review acceptance is asserted.**

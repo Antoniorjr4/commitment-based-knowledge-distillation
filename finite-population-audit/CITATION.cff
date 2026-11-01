@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this finite-population audit, cite this release and the accompanying manuscript."
+title: "Commitment-Based Teacher-Student Fidelity Auditing with Public Randomness and Finite-Population Certification"
+type: software
+authors:
+  - family-names: Rufino
+    given-names: Antonio
+    affiliation: "Independent Researcher, Brazil"
+    orcid: "https://orcid.org/0009-0004-1767-8165"
+version: "audit-large-v1.0.0"
+date-released: 2026-10-31
+license: MIT
+repository-code: "https://github.com/Antoniorjr4/commitment-based-knowledge-distillation"
+abstract: >-
+  Offline documentary reproduction of a fixed-population fidelity audit:
+  64 disagreements in 768 sampled maintenance reports, an upper total
+  of 200/2048, and a subsequent census with 158 disagreements.
+  The guarantee assumes a fixed disagreement table and uniform sampling
+  without replacement. Licensing is scoped in LICENSES.md.

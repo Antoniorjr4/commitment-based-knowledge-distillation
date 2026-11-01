@@ -1,0 +1,9 @@
+{
+  "separate_environment_replay": "PASS",
+  "separate_environment_kind": "venv with system-site packages for pinned NumPy/SciPy; py-ecc 8.0.0 installed in venv",
+  "same_summary_as_primary_replay": true,
+  "single_byte_archive_tamper_rejected": true,
+  "tamper_case_wrote_no_output": true,
+  "python": "3.12.14",
+  "source_basis_sha256": "5a2a307de05a17d56bdce835e23910dfdd1872a16d112bb1bd103085d8174f8d"
+}

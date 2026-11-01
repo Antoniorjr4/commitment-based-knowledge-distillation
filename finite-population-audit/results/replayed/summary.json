@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "checks_passed": 46095,
+  "inventory_files": 6336,
+  "raw_student_records": 2048,
+  "raw_teacher_records": 2048,
+  "N": 2048,
+  "n": 768,
+  "sample_k": 64,
+  "census_K": 158,
+  "upper_total": 200,
+  "primary_acceptance": true,
+  "census_inside_primary_bound": true,
+  "family_counts": {
+    "1": 110,
+    "0": 890,
+    "2": 24
+  },
+  "teacher_tokens_primary": 168640,
+  "teacher_tokens_census": 447733,
+  "primary_token_fraction": 0.3766530499203766,
+  "distinct_fingerprints": 36,
+  "minimum_sample_records_per_fingerprint": 6,
+  "windows": {
+    "sample_2026-10-30": [
+      768,
+      64
+    ],
+    "complement_2026-10-30": [
+      636,
+      50
+    ],
+    "complement_2026-11-01": [
+      644,
+      44
+    ]
+  },
+  "fingerprint_test": {
+    "chi2": 28.552823759132377,
+    "df": 35,
+    "asymptotic_p": 0.771157268746506,
+    "permutation_p": 0.7725622743772562,
+    "permutations": 100000,
+    "seed": 20261031,
+    "mc_se": 0.0013255557573572576
+  },
+  "sample_complement_fisher_p": 0.4416490595519689,
+  "three_window_pearson_p": 0.5665393987020476,
+  "hypothesis_sensitivity": {
+    "fixed_table_hypergeom": 0.09765625,
+    "iid_clopper_pearson": 0.10160764044917012,
+    "iid_chernoff_kl": 0.1099060144375637,
+    "iid_hoeffding": 0.12749606119588403
+  },
+  "approval_power": {
+    "143": {
+      "512": 0.8743974408872542,
+      "768": 0.9825097657472145
+    },
+    "158": {
+      "512": 0.6531556673986287,
+      "768": 0.8573319973120117
+    }
+  },
+  "max_false_acceptance_over_K205_to_2048": 0.04079354264233146,
+  "scope": "Documentary replay; no training, model inference, API call, authentication of API origin, public timestamp or proof of Teacher stationarity.",
+  "replay_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

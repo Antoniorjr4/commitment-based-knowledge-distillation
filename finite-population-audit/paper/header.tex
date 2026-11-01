@@ -1,0 +1,14 @@
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{xurl}
+\usepackage{needspace}
+\setlength{\emergencystretch}{3em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Commitment-based fidelity auditing}
+\fancyhead[R]{\small audit-large-v1.0.0}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\renewcommand{\headrulewidth}{0.3pt}
+\let\oldsection\section
+\renewcommand{\section}{\needspace{5\baselineskip}\oldsection}

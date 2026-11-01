@@ -1,11 +1,3 @@
-# Enlarged finite-population fidelity audit
-
-The new [finite-population audit](finite-population-audit/README.md) provides the manuscript, unchanged experimental evidence, and an offline verifier. The prespecified sample had 64 disagreements in 768 items, with a fixed-table upper bound of 200/2,048 (9.765625%); the later census had 158/2,048. The assumptions and distinction between fidelity and correctness are documented in the paper.
-
-Release identifier: `audit-large-v1.0.0`. The historical Baseline V1 below and tag `v1.0.0` are preserved. A new Zenodo DOI will be reported only after archive confirmation; the baseline DOI below refers to the older work.
-
----
-
 # Commitment-Based Knowledge Distillation
 
 Reproducibility package for the working paper:
@@ -228,3 +220,8 @@ ORCID: 0009-0004-1767-8165.
 
 The software in this repository is released under the MIT License. See `LICENSE`.
 
+
+
+## Related fidelity-auditing study
+
+The distinct finite-population fidelity-auditing study is maintained in its dedicated repository: [Auditable Teacher–Student Fidelity](https://github.com/Antoniorjr4/auditable-teacher-student-fidelity). Its initial `audit-large-v1.0.0` release and `finite-population-audit/` files here are retained as publication history. Use the dedicated repository for the current paper, citation and reproduction package. The historical Baseline V1 and its DOI remain unchanged.
